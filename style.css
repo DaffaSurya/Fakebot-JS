@@ -1,0 +1,99 @@
+*,
+html, body {
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width: 500px) {
+    .div-body {
+        background-color: #444;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-content {
+       display: flex;
+       flex-direction: column;
+       padding: 60px;
+    }
+
+    .p-question {
+        font-size: 18px;
+        padding: 20px;
+        font-weight: 400;
+        margin-left: 10px;
+        color: white
+    }
+
+    .div-answer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3px;
+    }
+
+    .input {
+        width: 170px;
+        height: 28px;
+        border-radius: 5px;
+
+    }
+
+    .button-send {
+      width: 165px;
+      height: 25px;
+      margin-top: 5px;
+      border-radius: 5px;
+    }
+}
+
+/* ini untuk screen besar */
+
+@media screen and (min-width: 501px) {
+     .div-body {
+        background-color: #333;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+     }
+
+     .div-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: gray;
+        width: 325px;
+        height: 175px;
+        border: 2px black solid;
+        border-radius: 5px;
+     }
+
+     .p-question {
+        font-size: 20px;
+        margin-left: 19px;
+     }
+
+     .div-answer {
+        margin-top: 10px;
+        width: 280px;
+        height: 40px;
+     }
+
+    .input {
+        width: 190px;
+        height: 30px;
+        border-radius: 5px;
+    }
+
+    .button-send {
+        height: 30px;
+        width: 60px;
+        border-radius: 5px;
+    }
+}
+
+
